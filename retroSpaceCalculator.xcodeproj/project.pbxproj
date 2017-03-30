@@ -15,6 +15,8 @@
 		0C887D591D5D0A990056B748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C887D571D5D0A990056B748 /* LaunchScreen.storyboard */; };
 		0C887D641D5D0A990056B748 /* retroSpaceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C887D631D5D0A990056B748 /* retroSpaceCalculatorTests.swift */; };
 		0C887D6F1D5D0A990056B748 /* retroSpaceCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C887D6E1D5D0A990056B748 /* retroSpaceCalculatorUITests.swift */; };
+		0C887D7D1D5D0B400056B748 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C887D7C1D5D0B400056B748 /* btn.wav */; };
+		0C887D7F1D5D1C2F0056B748 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C887D7E1D5D1C2F0056B748 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0C887D6A1D5D0A990056B748 /* retroSpaceCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retroSpaceCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C887D6E1D5D0A990056B748 /* retroSpaceCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retroSpaceCalculatorUITests.swift; sourceTree = "<group>"; };
 		0C887D701D5D0A990056B748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C887D7C1D5D0B400056B748 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		0C887D7E1D5D1C2F0056B748 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		0C887D4A1D5D0A990056B748 /* retroSpaceCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				0C887D7E1D5D1C2F0056B748 /* Minecraft.ttf */,
+				0C887D7C1D5D0B400056B748 /* btn.wav */,
 				0C887D4B1D5D0A990056B748 /* AppDelegate.swift */,
 				0C887D4D1D5D0A990056B748 /* ViewController.swift */,
 				0C887D4F1D5D0A990056B748 /* Main.storyboard */,
@@ -196,13 +202,16 @@
 				TargetAttributes = {
 					0C887D471D5D0A990056B748 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					0C887D5E1D5D0A990056B748 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 0C887D471D5D0A990056B748;
 					};
 					0C887D691D5D0A990056B748 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 0C887D471D5D0A990056B748;
 					};
 				};
@@ -234,7 +243,9 @@
 			files = (
 				0C887D591D5D0A990056B748 /* LaunchScreen.storyboard in Resources */,
 				0C887D561D5D0A990056B748 /* Assets.xcassets in Resources */,
+				0C887D7F1D5D1C2F0056B748 /* Minecraft.ttf in Resources */,
 				0C887D511D5D0A990056B748 /* Main.storyboard in Resources */,
+				0C887D7D1D5D0B400056B748 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retroSpaceCalculator.app/retroSpaceCalculator";
 			};
 			name = Debug;
@@ -443,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retroSpaceCalculator.app/retroSpaceCalculator";
 			};
 			name = Release;
@@ -454,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = retroSpaceCalculator;
 			};
 			name = Debug;
@@ -465,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.retroSpaceCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = retroSpaceCalculator;
 			};
 			name = Release;
@@ -488,6 +505,7 @@
 				0C887D751D5D0A990056B748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C887D761D5D0A990056B748 /* Build configuration list for PBXNativeTarget "retroSpaceCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +514,7 @@
 				0C887D781D5D0A990056B748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C887D791D5D0A990056B748 /* Build configuration list for PBXNativeTarget "retroSpaceCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				0C887D7B1D5D0A990056B748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
